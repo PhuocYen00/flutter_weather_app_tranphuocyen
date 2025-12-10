@@ -5,7 +5,12 @@ class ApiConfig {
   static const String current = '/weather';
   static const String forecast = '/forecast';
 
-  static String get apiKey => dotenv.env['OPENWEATHER_API_KEY'] ?? '';
+  static String get apiKey {
+    if (!dotenv.isInitialized) {
+      return '';
+    }
+    return dotenv.env['OPENWEATHER_API_KEY'] ?? '';
+  }
 
   static String build(String endpoint, Map<String, dynamic> params) {
     final query = <String, String>{
