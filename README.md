@@ -21,7 +21,7 @@ The app displays current weather, hourly and daily forecasts, AQI, offline cachi
 - Dynamic background based on weather condition
 
 
-### 📊 Thông tin chi tiết
+### 📊 Detailed information
 - Humidity
 - Pressure
 - Visibility
@@ -67,7 +67,7 @@ The app displays current weather, hourly and daily forecasts, AQI, offline cachi
 
 ---
 
-## 🧰 Công nghệ sử dụng (Tech Stack) ##
+## 🧰 Tech Stack ##
 | Package              | Version | Purpose                    |
 | -------------------- | ------: | -------------------------- |
 | flutter              |     3.x | Main framework             |
