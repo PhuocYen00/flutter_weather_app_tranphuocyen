@@ -118,6 +118,33 @@ Open .env and add your API key:
 
 ---
 
+## 🚫 Known Limitations ##
+- The app depends entirely on OpenWeatherMap Free APIs, so some advanced data (UV index, alerts, AQI details) may be limited or not available in certain regions.
+- Does not include advanced weather alerts or severe weather notifications beyond AQI–based warnings.
+- Does not include weather radar maps or satellite layers.
+- Multi-language support (EN/VN) is implemented but not fully localized in 100% of UI text.
+- No offline mode for search results — only last fetched weather is cached.
+- Background weather animations are basic and not fully dynamic compared to modern weather apps.
+- UI responsiveness may vary slightly depending on device resolution and performance.
+- AQI and forecast accuracy may vary due to API limitations.
+- No iOS widget or Android home screen widget included.
+
+---
+
+## 🚀 Future Improvements ##
+- Add push notifications for rain alerts, high UV warnings, or severe weather conditions.
+- Implement a weather radar/map using OpenWeatherMap Map Layers API.
+- Add Home Screen Widgets (Android / iOS).
+- Improve animation system with dynamic backgrounds for all weather conditions.
+- Add more languages (Korean, Japanese, Chinese…) and full translation support.
+- Add offline support for forecast data and multiple cached cities.
+- Implement comparison mode to compare weather between two cities.
+- Add detailed weather charts (temperature curve, precipitation bar chart, wind speed chart).
+- Improve performance by migrating heavy tasks to isolates.
+- Add fallback to a second API provider (WeatherAPI) to prevent downtime when OpenWeatherMap is unavailable.
+
+---
+
 ## Author ##
 
 **Name:** Tran Phuoc Yen
