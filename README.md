@@ -1,4 +1,4 @@
-# 🌤️ Flutter Weather App – Phước Yên
+# 🌤️ Flutter Weather App – Tran Phuoc Yen
 
 A modern and fully-featured Flutter weather application using the OpenWeatherMap API.
 The app displays current weather, hourly and daily forecasts, AQI, offline caching, city search, multilingual support (Vietnamese / English), and more.
